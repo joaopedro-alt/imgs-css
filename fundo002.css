@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+body::-webkit-scrollbar {
+  width: 18px;          
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0);         
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(72, 0, 54); 
+  border-radius: 10px;     
+}
+
+div{
+  height: 200vh;
+  margin: 10px;
+  border: 2px dashed black;
+  background-image: url(../imgs-css/imagens/pattern002.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
