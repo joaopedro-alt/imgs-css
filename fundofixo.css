@@ -1,0 +1,28 @@
+body{
+  height: 100vh;
+  background-image: url(../imgs-css/imagens/wallpaper002.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+main{
+  margin-top: 10px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 74, 0.544);
+  max-width: 400px;
+  background-color: rgb(181, 224, 255);
+  color: black;
+}
+
+main p{
+  padding: 5px;
+}
+
+main h1{
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+#container{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  padding: 10px;
+  background-color: purple;
+  height: 94vh;
+  background-image: url(../imgs-css/imagens/target001.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#conteudo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 400px;
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-image: url(../imgs-css/imagens/target001.png);
+  background-size: 100% 100%;
+}
+
